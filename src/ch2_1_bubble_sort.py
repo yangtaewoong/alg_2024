@@ -1,12 +1,12 @@
 from data_unsorted import numbers
-# from data_unsorted_a_lot import numbers
-# numbers = numbers[:1000]
+#from data_unsorted_a_lot import numbers
+numbers = numbers[:1000]
 
 from random import randint, seed, shuffle
 from time import time
 
 from vis import BubbleSortVisualizer as Visualizer
-# from vis import Dummy as Visualizer
+# from vis import Dummy as Visualizerr
 
 def main():
   print('before:', array)
